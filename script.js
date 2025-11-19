@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
 
     // ⭐ Lenovo 전용 Google Apps Script로 전송
-    fetch("https://script.google.com/macros/s/AKfycbzJz4yexMgEngeDrZ3e7awDVWPnVe4sXXgSfczKNeVbgBjjYmRob_WGdPFb1hFJwcBP/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzrsAo2wJ4nyMIXdpksZEm-pVdv7RaTz6l6qQdYfW9BpmAKazsycE-Cdqt8TGNsoeGd/exec", {
       method: "POST",
       mode: "no-cors",
       headers: { "Content-Type": "application/json" },
